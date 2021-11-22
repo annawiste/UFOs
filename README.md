@@ -9,6 +9,15 @@ The full table contains 111 records of UFO sightings. That is too many for a per
 
 #### Process
 When a user changes the text in any of the text input boxes, the code will detect that change and store the information added. If text is added to other boxes, it will gather all of the filters into an object. If you delete the text in a box, it will remove that from the filters. 
+
+Image of site filters with text added
+
+![site](site_filters.png)
+
+Corresponding console results showing that the information has been gathered into an object
+
+![consolelog](consolelog_filters.png)
+
 Then the code will loop through the stored filters, applying each, and only retaining the data from the table if the filters are met. 
 Then an updated table is built. 
 
